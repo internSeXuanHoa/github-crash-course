@@ -67,6 +67,7 @@ git log [option]
 ```shell
 git log
 git log --oneline
+git log --oneline --graph
 ```
 
 - Restore a file to previous state:
@@ -128,8 +129,20 @@ git switch dev
 
 ```shell
 git merge branchName
+git rebase branchName
 ```
 
 ```shell
 git merge dev
+git rebase dev
+```
+
+- Delete a branch:
+
+```shell
+git branch -d branchName
+```
+
+```shell
+git branch -d dev
 ```
