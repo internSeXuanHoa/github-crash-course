@@ -93,3 +93,43 @@ git checkout d2dd0fa -- .
 git checkout d2dd0fa -- /src
 git checkout d2dd0fa -- index.html
 ```
+
+- List all branch:
+
+```shell
+git branch
+```
+
+- Create a new branch:
+
+```shell
+git branch branchName
+```
+
+```shell
+git branch dev
+```
+
+- Switch to other branch:
+
+```shell
+git checkout branchName
+git switch branchName
+
+```
+
+```shell
+git checkout dev
+git switch dev
+
+```
+
+- Merge branch:
+
+```shell
+git merge branchName
+```
+
+```shell
+git merge dev
+```
